@@ -1,23 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="sideBar">
-            <div class="siderBar-bg">
-                <ul>
-
-                </ul>
-            </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section id="home" class="container">
+      <div class="sideBar">
+        <div class="bg">
+          <ul>
+            <li>Home</li>
+            <li class="text-gray">Service</li>
+            <li class="bg-gray">News</li>
+            <li class="text-gray">Blog</li>
+            <li class="text-gray">Contact</li>
+          </ul>
         </div>
-        <div class="main"></div>
-    </div>
-    <script src="/index.js"></script>
-</body>
+      </div>
+
+      <div class="header">
+        <div class="mainContent">
+            <div class="sideBar-m">
+                <div class="bg">
+                  
+                  <button onClick="isOpen()"><i id="icon-close" class="fa-solid fa-bars icon-m"></i></button>
+                  <ul id="showMenu">
+                    <li>Home</li>
+                    <li>Service</li>
+                    <li class="text-gray">News</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                  </ul>
+                </div>
+              </div>
+            <div class="logo">
+                <img src="./img//logoNCC 1.png" alt="">
+            </div>
+            <div class="heading">
+                <p class="title"> Lorem ipsum dolor sit amet</p>
+                <p class="headContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique consequat placerat. Vestibulum auctor pellentesque sem, eu posuere erat hendrerit quis. Maecenas vel consequat turpis. Nam facilisis, ligula in mattis sodales, augue justo tristique nulla, sed lacinia ante eros ut mi. Morbi vitae diam augue. Aliquam vel mauris a nibh auctor commodo. Praesent et nisi eu justo eleifend convallis. Quisque suscipit maximus vestibulum. Phasellus congue mollis orci, sit amet luctus augue tristique eu. Donec vulputate odio neque, sed semper turpis pellentesque a. </p>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <div class="title">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <img src="./img/css-icon 1.png" alt="">
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper ultricies. .</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="title">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <img src="./img/html-icon 1.png" alt="">
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper ultricies</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="title">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <img src="./img/url-icon 1.png" alt="">
+                        </div>
+                        <div>
+                            <p style="text-align:justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper ultricies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer"><p>Copyright © 2021 </p> </footer>
+          </div>
+      </div>
+      
+    </section>
+    <script src="./index.js"></script>
+    <script src="./question10.js"></script>
+  </body>
 </html>
