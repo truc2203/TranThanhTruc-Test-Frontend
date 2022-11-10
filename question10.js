@@ -1,4 +1,4 @@
-// Question 10
+// This is Question 10 
 
 const a =  [1,3,4,2,6,7,9]
 const b = [2,3,1,5,7,9]
